@@ -8,6 +8,8 @@ import Projects from "./pages/Projects";
 import Nopage from "./pages/Nopage";
 import Footer from "./components/Footer"
 import Contact from './pages/Contact'
+import { Box } from "@mui/material";
+
 
 
 const App = () => {
@@ -26,7 +28,11 @@ const App = () => {
         <Route path="*" element={<Nopage />} />
       </Routes>
       <div >
-      <Footer/>
+        <Box >
+        <Footer/>
+
+        </Box>
+     
 
       </div>
      

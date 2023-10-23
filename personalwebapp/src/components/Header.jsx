@@ -15,6 +15,8 @@ import HomeIcon from "@mui/icons-material/Home";
 import { Outlet } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 
+
+
 const pages = ["Home", "About", "Contact", "hirenow", "portfolio", "projects"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
@@ -58,7 +60,7 @@ function ResponsiveAppBar() {
                 textDecoration: "none",
               }}
             >
-              NITIN VERMA
+              NITIN VERMA 
             </Typography>
 
             <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>

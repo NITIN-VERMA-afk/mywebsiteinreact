@@ -8,7 +8,7 @@ import TipsAndUpdatesIcon from "@mui/icons-material/TipsAndUpdates";
 import ComputerIcon from "@mui/icons-material/Computer";
 import SelfImprovementIcon from "@mui/icons-material/SelfImprovement";
 import ContactMailIcon from "@mui/icons-material/ContactMail";
-
+import Avatar from '@mui/material/Avatar';
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
   ...theme.typography.body2,
@@ -44,23 +44,20 @@ export default function Home() {
               i M A Web Develper & Programmer Living in Bilaspur,Himachal
               Pardesh.i make Web Application usaually with mern stack{" "}
             </p>
+            <Button>Contact Me</Button>
           </Item>
         </Grid>
-        <Grid xs={12}>
+        <Grid xs={2}>
           <Item sx={{
-          backgroundColor:"black",color:"white",
+          backgroundColor:"orange",height:"168px",display:"flex",justifyContent:"center",alignItems:"center"
           }}>
-            {" "}
-            <img
-              src="https://img.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1696809600&semt=sph"
-              alt="error"
-              width="300px"
-            />{" "}
+          <Avatar sx={{width:"290px",height:"290px"}} alt="icon" src="https://img.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1696809600&semt=sph"/>
+           
           </Item>
         </Grid>
-        <Grid xs={12}>
+        <Grid xs={10}>
           <Item sx={{
-          backgroundColor:"black",color:"white",
+          backgroundColor:"#27005D",color:"white",
           }}>
             <Typography variant="body2" gutterBottom>
             <WavingHandIcon /> Hi there! I m Nitin verma, a passionate MERN
@@ -81,14 +78,15 @@ export default function Home() {
             <SelfImprovementIcon />
             Lets connect and discuss how we can make the web a more exciting and
             functional place together! Feel free to reach out for collaborations
-            or to chat about all things MERN.
+            or to chat about all things MERN.you can contect me on linkdin and email me. 
             <ContactMailIcon />
             </Typography>
+            
           </Item>
         </Grid>
         <Grid xs={12}>
           <Item sx={{
-          backgroundColor:"black",color:"white",
+          backgroundColor:"#40F8FF",color:"white",marginBottom:"10%"
           }} >
             <Button>Learn more</Button>
             <Button>Contact me</Button>
